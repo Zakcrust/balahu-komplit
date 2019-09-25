@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/****************
+Header Area Start
+*****************/
+@media (min-width : 600px){
+    .mobile-app-banner {
+    background-image: url("../img/slider9.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 235px;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+}
+
+@media (min-width : 600px){
+.mobile-app-banner-content{
+    color: white;
+    width: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+}
+
+@media (min-width : 600px){
+.mobile-app-banner-content h1{
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+}
+}
+@media (min-width: 340px and max-width: 460px){
+    
+}
+@media (min-width: 460px and max-width: 680px){
+    
+}
+@media (min-width: 680and max-width: 1040px){
+    
+}
+
